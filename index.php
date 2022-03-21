@@ -12,13 +12,11 @@ include_once 'Code/dbConfig.php';
 <body>
 <nav class="navbar"></nav>
 <script src="JS/nav.js"></script>
-<!--<header class="hero-section">
+<header class="hero-section">
     <div class="content">
     </div>
-</header>-->
 
-<br><br>
-<center><div class="container" style="width: 45%">
+    <center><div class="container" style="width: 70%">
         <?php
             $query = "SELECT * FROM products ORDER BY pid ASC ";
             $result = mysqli_query($con,$query);
@@ -49,5 +47,9 @@ include_once 'Code/dbConfig.php';
         ?>
  </div>
 </center>
+</header>
+
+<br><br>
+
 </body>
 </html>
