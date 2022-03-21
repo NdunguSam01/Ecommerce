@@ -1,5 +1,16 @@
 <?php
-include_once("dbConfig.php");
+include_once("../Code/dbConfig.php");
+
+if(isset($_SESSION["admin"]))
+{
+    if(time()-$_SESSION["login_time_stamp"] >600) 
+    {
+    	echo '<script>alert("Session expired. Please log in again")</script>';
+        session_unset();
+        session_destroy();
+        header("Location:Login.php");
+    }
+}
 
 if (isset($_POST['upload'])) 
 {
@@ -51,6 +62,7 @@ if (isset($_POST['upload']))
 		<div>
 			<textarea name="price" placeholder="Item Price" required></textarea>
 		</div>
+		<br>
 		<div>
 			<label for="choice">Category: </label>
 		</div>

@@ -19,7 +19,7 @@ const createNav = () => {
                 <a href="LogOut.php" onclick="return confirm('Are you sure you want to log out?');">Log out</a>
             </div>
         </div>
-                <a href="#"><img src="img/cart.png" alt=""></a>
+                <a href="cart.php"><img src="img/cart.png" alt=""></a>
             </div>
         </div>
 
