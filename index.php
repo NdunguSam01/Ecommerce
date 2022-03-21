@@ -16,7 +16,7 @@ include_once 'Code/dbConfig.php';
     <div class="content">
     </div>
 
-    <center><div class="container" style="width: 70%">
+    <center><div class="card" style="width: 70%">
         <?php
             $query = "SELECT * FROM products ORDER BY pid ASC ";
             $result = mysqli_query($con,$query);
@@ -25,14 +25,13 @@ include_once 'Code/dbConfig.php';
                 while ($row = mysqli_fetch_array($result)) {
 
                     ?>
-                    <div class="col-md-3">
 
                         <form method="post" action="Cart.php?action=add&pid=<?php echo $row["pid"]; ?>">
 
                             <div class="product">
                                 <center><img src="Uploads/<?php echo $row["image"]; ?>" class="img-responsive"></center>
-                                <h5 class="text-info"><?php echo $row["description"]; ?></h5>
-                                <h5 class="text-danger">Kshs <?php echo $row["price"]; ?></h5>
+                                <br><h5 class="text-info"><?php echo $row["description"]; ?></h5>
+                                <br><h5 class="text-danger">Kshs <?php echo $row["price"]; ?></h5>
                                 <input type="text" name="quantity" class="form-control" value="1">
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["description"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
@@ -40,7 +39,6 @@ include_once 'Code/dbConfig.php';
                                        value="Add to Cart" onclick="return confirm('Add item to cart?')">
                             </div>
                         </form>
-                    </div>
                     <?php
                 }
             }

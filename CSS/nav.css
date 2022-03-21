@@ -115,7 +115,7 @@
 }
 .navbar a:hover, .dropdown:hover .dropbtn 
 {
-  background-color: transparent;
+  background-color:darkgrey;
 }
 
 .dropdown-content 
@@ -140,7 +140,7 @@
 
 .dropdown-content a:hover 
 {
-  background-color: transparent;
+  background-color: darkgray;
 }
 
 .dropdown:hover .dropdown-content 
