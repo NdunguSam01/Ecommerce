@@ -81,10 +81,12 @@
     margin-left: 20px;
 }
 
-.nav-items a img{
+.nav-items a img
+{
     width: 30px;
 }
-.links-container{
+.links-container
+{
     width: 100%;
     display: flex;
     padding: 10px 10vw;
@@ -93,7 +95,8 @@
     border-top: 1px solid #d1d1d1;
 }
 
-.link{
+.link
+{
     text-transform: capitalize;
     padding: 0 10px;
     margin: 0 5px;
@@ -103,7 +106,8 @@
     transition: .5s;
 }
 
-.link:hover{
+.link:hover
+{
     opacity: 1;
 }
 .dropdown 
@@ -125,7 +129,7 @@
 }
 .navbar a:hover, .dropdown:hover .dropbtn 
 {
-  background-color:darkgrey;
+  background-color:transparent;
 }
 
 .dropdown-content 
