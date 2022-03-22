@@ -1,6 +1,6 @@
 <?php
 include_once("../Code/dbConfig.php");
-include_once 'Sessions.php';
+include_once 'sessions.php';
 if(isset($_SESSION["admin"]))
 {
     if(time()-$_SESSION["login_time_stamp"] >600) 
@@ -28,13 +28,13 @@ if (isset($_POST['upload']))
 	if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) 
 	{
 		echo '<script>alert("Product added successully!")</script>';
-		echo '<script>window.location="Items.php"</script>';
-		//header("Location:Items.php");
+		echo '<script>window.location="items.php"</script>';
+		//header("Location:items.php");
 	}
 	else
 	{
 		echo '<script>alert("Upload not successful!")</script>';
-		echo '<script>window.location="Items.php"</script>';
+		echo '<script>window.location="items.php"</script>';
 	}
 }
 
@@ -51,7 +51,7 @@ if (isset($_POST['upload']))
 </head>
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvcftdRUFw0N1sXA3_ATmLU8-EsQ8h8nXg0w&usqp=CAU">
 	<div id="content">
-		<form method="post" action="Items.php" enctype="multipart/form-data">
+		<form method="post" action="items.php" enctype="multipart/form-data">
 			<h1>New Item</h1>
 		<div>
 			<input type="file" name="image" required>

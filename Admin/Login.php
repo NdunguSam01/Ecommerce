@@ -16,7 +16,7 @@ if (isset($_POST['login']))
 		{
 			$_SESSION['admin']=$admin;
 			$_SESSION['login_time_stamp']=time();
-			header("Location:Items.php");
+			header("Location:items.php");
 		}
 		else
 		{
@@ -59,7 +59,7 @@ if (isset($_POST['login']))
         </div>-->	
 	<div class="loginbox">
 		<h1>ADMIN LOGIN</h1>
-<form method="POST" action="Login.php">
+<form method="POST" action="login.php">
 		
 			<p>ADMIN USERNAME:</p>
 			<p><input type="text" name="userName" placeholder="Admin Username:" required></p>
@@ -68,7 +68,7 @@ if (isset($_POST['login']))
 			<p><input type="password" name="password" placeholder="Password" required></p>
 			<p>&nbsp;</p>
 			<p><input type="submit" name="login" value="Login"></p>
-			<center><a href="Reg.php">Don't have an account?</a></center>
+			<center><a href="reg.php">Don't have an account?</a></center>
 </form>
 </div>
 </body>

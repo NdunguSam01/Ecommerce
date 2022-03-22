@@ -40,7 +40,7 @@ if (isset($_POST['registration']))
   <div class ="header">
         </div>	
 <div class=loginbox>
-	<form class="signup" action="Reg.php" method="post" >
+	<form class="signup" action="reg.php" method="post" >
 			<fieldset>
 
 
@@ -62,7 +62,7 @@ if (isset($_POST['registration']))
 				<div class="form-footer">
 						<center>
 							 <button type="submit" class="btn" name="registration">Create</button><br><br>
-							  <a href="Login.php">Have an account?</a>
+							  <a href="login.php">Have an account?</a>
 						</center>
 
 								</div>
