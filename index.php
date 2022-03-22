@@ -20,9 +20,11 @@ include_once 'Code/dbConfig.php';
         <?php
             $query = "SELECT * FROM products ORDER BY pid ASC ";
             $result = mysqli_query($con,$query);
-            if(mysqli_num_rows($result) > 0) {
+            if(mysqli_num_rows($result) > 0) 
+            {
 
-                while ($row = mysqli_fetch_array($result)) {
+                while ($row = mysqli_fetch_array($result)) 
+                {
 
                     ?>
 
