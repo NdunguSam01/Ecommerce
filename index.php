@@ -7,6 +7,7 @@ include_once 'Code/dbConfig.php';
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="CSS/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Kikwetu Gaming Shop</title>
 </head>
 <body>
@@ -48,5 +49,8 @@ include_once 'Code/dbConfig.php';
  </div>
 </center>
 </header>
+
+<footer></footer>
+<script src="JS/footer.js"></script>
 </body>
 </html>
