@@ -1,6 +1,6 @@
 <?php
 include_once("../Code/dbConfig.php");
-
+include_once 'Sessions.php';
 if(isset($_SESSION["admin"]))
 {
     if(time()-$_SESSION["login_time_stamp"] >600) 

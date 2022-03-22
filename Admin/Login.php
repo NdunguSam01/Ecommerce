@@ -39,13 +39,13 @@ if (isset($_POST['login']))
 <div class="navigation">
     <div>
       <ul class="nav">
-        <img src ="Login.webp" class="logo" alt="logos" width="200" height="200">
+        <img src ="../img/Login.webp" class="logo" alt="logos" width="200" height="200">
       </ul>
     </div>
   </div>
 
 <div class ="header">
-            <img src ="Admin2.webp" style="width: 100%" "height: 100%">	
+            <img src ="../img/Admin2.webp" style="width: 100%" "height: 100%">	
         </div>	
 
 	<!--<div class="nav">
