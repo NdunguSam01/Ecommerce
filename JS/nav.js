@@ -11,7 +11,7 @@ const createNav = () => {
                 </div>
 
         <div class="dropdown">
-                <button class="dropbtn"><img src="img/user.png"></button>
+                <button class="dropbtn"><img src="img/Back.png"></button>
             <div class="dropdown-content">
                 <!--<p><?php echo $_SESSION['user'];?></p>-->
                 <a href="Info.php">My Account</a>
