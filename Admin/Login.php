@@ -68,7 +68,8 @@ if (isset($_POST['login']))
 			<p><input type="password" name="password" placeholder="Password" required></p>
 			<p>&nbsp;</p>
 			<p><input type="submit" name="login" value="Login"></p>
-			<center><a href="reg.php">Don't have an account?</a></center>
+			<center><a href="reg.php">Don't have an account?</a></center><br>
+			<center><a href="../">Home</a></center>
 </form>
 </div>
 </body>

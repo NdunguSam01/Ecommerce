@@ -120,7 +120,7 @@ if (isset($_POST['upload']))
 		<div>
 			<br><input type="submit" name="upload" value="Upload Item" onclick="return confirm('Upload item?')">
 		</div>
-		<br><a href="../index.php">Home</a>
+		<br><a href="logout.php">Log Out</a>
 		</form>
 </body>
 </html>

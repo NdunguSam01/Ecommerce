@@ -24,7 +24,7 @@ const createNav = () => {
         </div>
 
 <ul class="links-container">
-        <li class="link-item"><a href="index.php" class="link">home</a></li>
+        <li class="link-item"><a href="../Ecommerce" class="link">home</a></li>
         <li class="link-item">
             <div class="dropdown">
                 <button class="dropbtn">Play Station</button>
@@ -32,7 +32,6 @@ const createNav = () => {
                     <a href="ps3.php">Play Station 3</a>
                     <a href="ps4.php">Play Station 4</a>
                     <a href="ps5.php">Play Station 5</a>
-                    <a href="psvita.php">Play Station Vita</a>
                 </div>
             </div>
         </li>
