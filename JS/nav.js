@@ -24,35 +24,38 @@ const createNav = () => {
         </div>
 
 <ul class="links-container">
-        <li class="link-item"><div class="dropdown">
+        <li class="link-item"><a href="index.php" class="link">home</a></li>
+        <li class="link-item">
+            <div class="dropdown">
                 <button class="dropbtn">Play Station</button>
-            <div class="dropdown-content">
-                <a href="PS3.php">Play Station 3</a>
-                <a href="PS4.php">Play Station 4</a>
-                <a href="PS5.php">Play Station 5</a>
-                <a href="PSVita.php">Play Station Vita</a>
+                <div class="dropdown-content">
+                    <a href="ps3.php">Play Station 3</a>
+                    <a href="ps4.php">Play Station 4</a>
+                    <a href="ps5.php">Play Station 5</a>
+                    <a href="psvita.php">Play Station Vita</a>
+                </div>
             </div>
-        </div></li>
+        </li>
         <li class="link-item"><div class="dropdown">
                 <button class="dropbtn">X Box</button>
             <div class="dropdown-content">
-                <a href="XboxSS.php">Xbox Series S</a>
-                <a href="XboxsSSB.php">Xbox Series S Bundle</a>
-                <a href="XboxX.php">Xbox Series X</a>
+                <a href="xboxss.php">Xbox Series S</a>
+                <a href="xboxssb.php">Xbox Series S Bundle</a>
+                <a href="xboxx.php">Xbox Series X</a>
             </div>
         </div></li>
         <li class="link-item"><div class="dropdown">
                 <button class="dropbtn">Nintendo</button>
             <div class="dropdown-content">
-                <a href="NDS.php">Nintendo DS</a>
-                <a href="N3DS.php">Nintendo 3DS</a>
-                <a href="Wii.php">Wii</a>
+                <a href="nds.php">Nintendo DS</a>
+                <a href="n3ds.php">Nintendo 3DS</a>
+                <a href="wii.php">Wii</a>
             </div>
         </div></li>
         <li class="link-item"><div class="dropdown">
-                <button class="dropbtn">PC Gaming</button>
+                <button class="dropbtn">PC</button>
             <div class="dropdown-content">
-                <a href="PcGames.php">Games</a>
+                <a href="pcgames.php">Games</a>
             </div>
         </div></li>
         

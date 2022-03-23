@@ -3,8 +3,8 @@ const createFooter = () => {
 
     footer.innerHTML = `
     <div class="footer-content">
-        <img src="img/Logo.jpg" class="logo" alt="">
-        <div class="footer-ul-container">
+        <center><img src="img/Logo.jpg" class="logo" alt=""></center>
+        <!--<div class="footer-ul-container">
             <ul class="category">
                 <li class="category-title">men</li>
                 <li><a href="#" class="footer-link">t-shirts</a></li>
@@ -31,7 +31,8 @@ const createFooter = () => {
                 <li><a href="#" class="footer-link">sports</a></li>
                 <li><a href="#" class="footer-link">watch</a></li>
             </ul>
-        </div>
+        </div>-->
+
     </div>
     <p class="footer-title"><u>Company Contacts</u></p>
     <p class="info">Emails: <a href="mailto: help@kikwetu.com">help@kikwetu.com</a> or <a href="mailto: customersupport@kikwetu.com">customersupport@kikwetu.com</a></p>
@@ -45,6 +46,15 @@ const createFooter = () => {
 
     <div class="footer-social-container">
         <div>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
             <a href="#" class="social-link">terms & services</a>
             <a href="#" class="social-link">privacy page</a>
         </div>

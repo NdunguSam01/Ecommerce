@@ -1,5 +1,5 @@
 <?php
-include_once("../Code/dbConfig.php");
+include_once("../dbConfig.php");
 include_once 'sessions.php';
 if(isset($_SESSION["admin"]))
 {

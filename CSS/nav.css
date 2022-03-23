@@ -95,13 +95,31 @@
     border-top: 1px solid #d1d1d1;
 }
 
+.link-item
+{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
 .link
 {
+    font-size: 16px;
     text-transform: capitalize;
-    padding: 0 10px;
-    margin: 0 5px;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0px;
+    color: black;
+    float: right;
+    background-color: inherit;
+    border: none;
+    outline: none;
     text-decoration: none;
-    color: #383838;
     opacity: 0.5;
     transition: .5s;
 }

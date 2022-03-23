@@ -1,6 +1,6 @@
 <?php  
 session_start();
-include_once '../Code/dbConfig.php';
+include_once '../dbConfig.php';
 
 if (isset($_POST['login'])) 
 {
