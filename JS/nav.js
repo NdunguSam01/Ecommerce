@@ -14,12 +14,12 @@ const createNav = () => {
                 <button class="dropbtn"><img src="img/user.png"></button>
             <div class="dropdown-content">
                 <!--<p><?php echo $_SESSION['user'];?></p>-->
-                <a href="Info.php">My Account</a>
-                <a href="Orders.php">My orders</a>
-                <a href="LogOut.php" onclick="return confirm('Are you sure you want to log out?');">Log out</a>
+                <a href="Info">My Account</a>
+                <a href="Orders">My orders</a>
+                <a href="LogOut" onclick="return confirm('Are you sure you want to log out?');">Log out</a>
             </div>
         </div>
-                <a href="cart.php"><img src="img/cart.png" alt=""></a>
+                <a href="Cart"><img src="img/cart.png" alt=""></a>
             </div>
         </div>
 
@@ -29,35 +29,35 @@ const createNav = () => {
             <div class="dropdown">
                 <button class="dropbtn">Play Station</button>
                 <div class="dropdown-content">
-                    <a href="ps3.php">Play Station 3</a>
-                    <a href="ps4.php">Play Station 4</a>
-                    <a href="ps5.php">Play Station 5</a>
+                    <a href="PS3">Play Station 3</a>
+                    <a href="PS4">Play Station 4</a>
+                    <a href="PS5">Play Station 5</a>
                 </div>
             </div>
         </li>
         <li class="link-item"><div class="dropdown">
                 <button class="dropbtn">X Box</button>
             <div class="dropdown-content">
-                <a href="xboxss.php">Xbox Series S</a>
-                <a href="xboxssb.php">Xbox Series S Bundle</a>
-                <a href="xboxx.php">Xbox Series X</a>
+                <a href="XBoxSS">Xbox Series S</a>
+                <a href="XBoxSSB">Xbox Series S Bundle</a>
+                <a href="XBoxX">Xbox Series X</a>
             </div>
         </div></li>
         <li class="link-item"><div class="dropdown">
                 <button class="dropbtn">Nintendo</button>
             <div class="dropdown-content">
-                <a href="nds.php">Nintendo DS</a>
-                <a href="n3ds.php">Nintendo 3DS</a>
-                <a href="wii.php">Wii</a>
+                <a href="NDS">Nintendo DS</a>
+                <a href="N3DS">Nintendo 3DS</a>
+                <a href="Wii">Wii</a>
             </div>
         </div></li>
         <li class="link-item"><div class="dropdown">
                 <button class="dropbtn">PC</button>
             <div class="dropdown-content">
-                <a href="pcgames.php">Games</a>
+                <a href="PcGames">Games</a>
             </div>
         </div></li>
-        
+    <li class="link-item"><a href="Admin/Login" class="link">Items</a></li>
 </ul>
 
         

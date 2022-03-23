@@ -1,6 +1,6 @@
 <?php
 //session_start();
-include_once '../Code/dbConfig.php';
+include_once '../dbConfig.php';
 if (isset($_POST['registration'])) 
 {
 	$userName=$_POST['userName'];
@@ -33,7 +33,7 @@ if (isset($_POST['registration']))
       <ul class="nav">
 
         
-        <li><a class="special" href="index.php">Home</a></li>
+        <li><a class="special" href="../">Home</a></li>
       </ul>
     </div>
   </div>

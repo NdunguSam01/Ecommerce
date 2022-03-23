@@ -16,12 +16,12 @@ if (isset($_POST['login']))
 		{
 			$_SESSION['admin']=$admin;
 			$_SESSION['login_time_stamp']=time();
-			header("Location:items.php");
+			header("Location:Items");
 		}
 		else
 		{
             $_SESSION["error"]="Wrong username/password combination";
-            header("location:Login.php");
+            header("location:Login");
             array_push($errors, "wrong username/password combination");
         }
 }
@@ -59,7 +59,7 @@ if (isset($_POST['login']))
         </div>-->	
 	<div class="loginbox">
 		<h1>ADMIN LOGIN</h1>
-<form method="POST" action="login.php">
+<form method="POST" action="Login">
 		
 			<p>ADMIN USERNAME:</p>
 			<p><input type="text" name="userName" placeholder="Admin Username:" required></p>
@@ -68,7 +68,7 @@ if (isset($_POST['login']))
 			<p><input type="password" name="password" placeholder="Password" required></p>
 			<p>&nbsp;</p>
 			<p><input type="submit" name="login" value="Login"></p>
-			<center><a href="reg.php">Don't have an account?</a></center><br>
+			<center><a href="Reg">Don't have an account?</a></center><br>
 			<center><a href="../">Home</a></center>
 </form>
 </div>
