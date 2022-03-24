@@ -65,7 +65,7 @@ if (isset($_POST['login']))
 			<p><input type="text" name="userName" placeholder="Admin Username:" required></p>
 		
 			<p>PASSWORD:</p>
-			<p><input type="password" name="password" placeholder="Password" required></p>
+			<p><input type="password" name="password" placeholder="Password" autocomplete="text" required></p>
 			<p>&nbsp;</p>
 			<p><input type="submit" name="login" value="Login"></p>
 			<center><a href="Reg">Don't have an account?</a></center><br>
