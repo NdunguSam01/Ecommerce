@@ -4,21 +4,23 @@
 .hero-section
 {
     width: 100%;
-    height: calc(100vh - 120px);
+    height: 100%;
     background-image: url('../img/Back.png');
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
-.hero-section .logo{
+.hero-section .logo
+{
     height: 150px;
     display: block;
     margin: auto;
 }
 
-.hero-section .sub-heading{
+.hero-section .sub-heading
+{
     margin-top: 10px;
     text-align: center;
     color: #fff;
@@ -29,10 +31,13 @@
 .card 
 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
+  margin: 0px;
   text-align: center;
   font-family: arial;
+  width: 500px;
+  border: 5px solid rgb(111,41,97);
+  border-radius: .5em;
+  padding: 10px;
 }
 .price 
 {
@@ -70,10 +75,15 @@ color: white;
 }
 .product
 {    
-border: 1px solid #eaeaec;
-margin: -1px 19px 3px -1px;
+border: 1px solid #E0E0E0;
+margin: 10px 0px 0px 10px;
 padding: 10px;
 text-align: center;
 width: 300px;
 background-color: #efefef;
+float: left;
+padding: 10px;
+display: inline-block;
+vertical-align: middle;
+height: 200px;
 }

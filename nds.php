@@ -28,10 +28,10 @@ include_once 'dbConfig.php';
                 {
 
                     ?>
-
+                    <div class="product">
                         <form method="post" action="Cart.php?action=add&pid=<?php echo $row["pid"]; ?>">
 
-                            <div class="product">
+                            
                                 <center><img src="Uploads/<?php echo $row["image"]; ?>" class="img-responsive"></center>
                                 <br><h5 class="text-info"><?php echo $row["description"]; ?></h5>
                                 <br><h5 class="text-danger">Kshs <?php echo $row["price"]; ?></h5>
@@ -40,8 +40,9 @@ include_once 'dbConfig.php';
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
                                 <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success"
                                        value="Add to Cart" onclick="return confirm('Add item to cart?')">-->
-                            </div>
+                            
                         </form>
+                    </div>
                     <?php
                 }
             }

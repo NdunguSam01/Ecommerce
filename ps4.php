@@ -12,14 +12,13 @@ include_once 'dbConfig.php';
 </head>
 <body>
 <nav class="navbar"></nav>
-
 <header class="hero-section">
     <div class="content">
     </div>
 
     <center><div class="card" style="width: 70%">
         <?php
-            $query = "SELECT * FROM products WHERE category='ps4controller' OR category='ps4console' OR category='ps4game'";
+            $query = "SELECT * FROM products WHERE category='ps4controller' OR category='ps4console' OR category='ps4game' ORDER BY pid ASC ";
             $result = mysqli_query($con,$query);
             if(mysqli_num_rows($result) > 0) 
             {
@@ -28,10 +27,10 @@ include_once 'dbConfig.php';
                 {
 
                     ?>
-
+                    <div class="product">
                         <form method="post" action="Cart.php?action=add&pid=<?php echo $row["pid"]; ?>">
 
-                            <div class="product">
+                            
                                 <center><img src="Uploads/<?php echo $row["image"]; ?>" class="img-responsive"></center>
                                 <br><h5 class="text-info"><?php echo $row["description"]; ?></h5>
                                 <br><h5 class="text-danger">Kshs <?php echo $row["price"]; ?></h5>
@@ -40,8 +39,9 @@ include_once 'dbConfig.php';
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
                                 <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success"
                                        value="Add to Cart" onclick="return confirm('Add item to cart?')">-->
-                            </div>
+                            
                         </form>
+                        </div>
                     <?php
                 }
             }
