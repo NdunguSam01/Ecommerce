@@ -18,6 +18,7 @@ include_once 'dbConfig.php';
     </div>
 
     <center><div class="card" style="width: 70%">
+        <h1>Available Items</h1>
         <?php
             $query = "SELECT * FROM products ORDER BY pid ASC ";
             $result = mysqli_query($con,$query);
