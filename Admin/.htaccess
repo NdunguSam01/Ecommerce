@@ -1,0 +1,15 @@
+RewriteEngine On
+
+#Hiding .php extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#Protecting a directory
+AuthType Basic
+AuthName "Admin"
+AuthUserFile "C:/Users/user/Desktop/XAMPP Folder/htdocs/Ecommerce/Admin/.htpasswd"
+Require user samuel
+
+
+
+
