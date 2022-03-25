@@ -69,38 +69,38 @@ if (isset($_POST['upload']))
 		<div class="choices">
 			<select name="choice" id="choice">
 				<optgroup label="Play Station 3">
-					<option value="ps3controller">Play Station 3 Controller</option>
 					<option value="ps3console">Play Station 3 Console</option>
+					<option value="ps3controller">Play Station 3 Controller</option>
 					<option value="ps3game">Play Station 3 Games</option>
 				</optgroup>
 				<optgroup label="Play Station 4">
-					<option value="ps4controller">Play Station 4 Controller</option>
 					<option value="ps4console">Play Station 4 Console</option>
+					<option value="ps4controller">Play Station 4 Controller</option>
 					<option value="ps4game">Play Station 4 Games</option>
 				</optgroup>
 				<optgroup label="Play Station 5">
-					<option value="ps5controller">Play Station 5 Controller</option>
 					<option value="ps5console">Play Station 5 Console</option>
+					<option value="ps5controller">Play Station 5 Controller</option>
 					<option value="ps5game">Play Station 5 Games</option>
 				</optgroup>
 				<optgroup label="X Box Series S">
-					<option value="seriesscontroller">X Box Series S Controller</option>
 					<option value="seriessconsole">X Box Series S Console</option>
+					<option value="seriesscontroller">X Box Series S Controller</option>
 					<option value="seriessgame">X Box Series S Games</option>
 				</optgroup>
 				<optgroup label="X Box Series S Bundle">
-					<option value="seriessbcontroller">X Box Series S Bundle Controller</option>
 					<option value="seriessbconsole">X Box Series S Bundle Console</option>
+					<option value="seriessbcontroller">X Box Series S Bundle Controller</option>
 					<option value="seriessbgame">X Box Series S Bundle Games</option>
 				</optgroup>
 				<optgroup label="X Box Series X">
-					<option value="seriesxcontroller">X Box Series X Controller</option>
 					<option value="seriesxconsole">X Box Series X Console</option>
+					<option value="seriesxcontroller">X Box Series X Controller</option>
 					<option value="seriesxgame">X Box Series X Games</option>
 				</optgroup>
 				<optgroup label="Nintendo DS">
-					<option value="ndsc">Nintendo DS Controller</option>
 					<option value="ndsa">Nintendo DS Accessories</option>
+					<option value="ndsc">Nintendo DS Controller</option>
 				</optgroup>
 				<optgroup label="Nintendo 3DS">
 					<option value="n3dsa">Nintendo 3DS Accessories</option>
