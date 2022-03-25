@@ -34,11 +34,13 @@ include_once 'dbConfig.php';
                                 <center><img src="Uploads/<?php echo $row["image"]; ?>" class="img-responsive"></center>
                                 <br><h5 class="text-info"><?php echo $row["description"]; ?></h5>
                                 <br><h5 class="text-danger">Kshs <?php echo $row["price"]; ?></h5>
-                                <!--<input type="text" name="quantity" class="form-control" value="1">
+                                <br>
+                                <input type="text" name="quantity" class="form-control" value="1">
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["description"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
+                                <br><br>
                                 <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success"
-                                       value="Add to Cart" onclick="return confirm('Add item to cart?')">-->
+                                       value="Add to Cart" onclick="return confirm('Add item to cart?')">
                         </form>
                     </div>
                     <?php
