@@ -18,6 +18,7 @@ include_once 'dbConfig.php';
     </div>
 
     <center><div class="card" style="width: 70%">
+        <h1>Nintendo DS</h1>
         <?php
             $query = "SELECT * FROM products WHERE category='ndsa' OR category='ndsc' ";
             $result = mysqli_query($con,$query);

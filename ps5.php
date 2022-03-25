@@ -18,6 +18,7 @@ include_once 'dbConfig.php';
     </div>
 
     <center><div class="card" style="width: 70%">
+        <h1>Play Station 5</h1>
         <?php
             $query = "SELECT * FROM products WHERE category='ps5controller' OR category='ps5console' OR category='ps5game'";
             $result = mysqli_query($con,$query);
