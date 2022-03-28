@@ -45,7 +45,7 @@ if (isset($_POST['login']))
   </div>
 
 <div class ="header">
-            <img src ="../img/Admin2.webp" style="width: 100%" "height: 100%">	
+            <img src ="../img/Admin.webp" style="width: 100%" "height: 100%">	
         </div>	
 
 	<!--<div class="nav">
