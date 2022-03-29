@@ -16,7 +16,7 @@ if (isset($_POST['login']))
 		{
 			$_SESSION['admin']=$admin;
 			$_SESSION['login_time_stamp']=time();
-			header("Location:Items");
+			header("Location:Add");
 		}
 		else
 		{

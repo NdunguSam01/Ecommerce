@@ -118,9 +118,11 @@ if (isset($_POST['upload']))
 			</select>
 		</div>
 		<div>
-			<br><input type="submit" name="upload" value="Upload Item" onclick="return confirm('Upload item?')">
+			<input type="submit" name="upload" value="Upload Item" onclick="return confirm('Upload item?')">
 		</div>
-		<br><a href="logout.php">Log Out</a>
+		<br><a href="Logout">Log Out</a>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="View">View Items</a>
 		</form>
 </body>
 </html>

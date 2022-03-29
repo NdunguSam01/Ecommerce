@@ -1,0 +1,34 @@
+h1
+{
+padding-left: 270px;
+}
+table
+{
+background-color: none;
+width: 50%;
+border: 1px solid black;
+margin: 20px;
+border-collapse: collapse;
+}
+tr
+{
+border: 1px;
+padding: 10px;
+}
+tr:hover
+{
+bacground:#F5F5F5;
+}
+td
+{
+border: 1px solid black;
+padding: 5px;
+}
+th
+{
+border: 1px solid black;
+background-color: none;
+text-align: left;
+background-color: #4CAF50;
+color: white;
+}
