@@ -72,7 +72,7 @@ if (isset($_GET["action"]))
 			echo "<td><img src='../Uploads/".$row['image']."'></td>" ;
 			echo "<td>".$row["description"]."</td>";
 			echo "<td>".$row["price"]."</td>";
-			echo "<td><a href=View.php?action=delete&pid=".$row['pid'].">Delete</a></td>";
+			echo "<td><a href=View?action=delete&pid=".$row['pid'].">Delete</a></td>";
 			echo "</tr>";
 		}
 		echo "</table>";
@@ -86,7 +86,7 @@ if (isset($_GET["action"]))
 	for ($page=1;$page<=$no_of_pages;$page++) 
 	{
 
-  	echo '<a href="viewItems.php?page=' . $page . '">' . $page . '</a> ';
+  	echo '<a href="View?page=' . $page . '">' . $page . '</a> ';
 	}
 	?>
 

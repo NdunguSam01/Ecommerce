@@ -83,7 +83,7 @@ if (isset($_GET["action"]))
 	for ($page=1;$page<=$no_of_pages;$page++) 
 	{
 
-  	echo '<a href="deletedItems?page=' . $page . '">' . $page . '</a> ';
+  	echo '<a href="Delete?page=' . $page . '">' . $page . '</a> ';
 	}
 	?>
 
