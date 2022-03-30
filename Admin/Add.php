@@ -28,13 +28,13 @@ if (isset($_POST['upload']))
 	if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) 
 	{
 		echo '<script>alert("Product added successully!")</script>';
-		echo '<script>window.location="items.php"</script>';
+		echo '<script>window.location="Add"</script>';
 		//header("Location:items.php");
 	}
 	else
 	{
 		echo '<script>alert("Upload not successful!")</script>';
-		echo '<script>window.location="items.php"</script>';
+		echo '<script>window.location="Add"</script>';
 	}
 }
 
@@ -51,7 +51,7 @@ if (isset($_POST['upload']))
 </head>
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvcftdRUFw0N1sXA3_ATmLU8-EsQ8h8nXg0w&usqp=CAU">
 	<div id="content">
-		<form method="post" action="items.php" enctype="multipart/form-data">
+		<form method="post" action="Add" enctype="multipart/form-data">
 			<h1>New Item</h1>
 		<div>
 			<input type="file" name="image" required>

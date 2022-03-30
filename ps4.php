@@ -17,7 +17,7 @@ include_once 'dbConfig.php';
     <div class="content">
     </div>
 
-    <center><div class="card" style="width: 70%">
+    <center><div class="card" style="width: 95%">
         <h1>Play Station 4</h1>
         <?php
             $query = "SELECT * FROM products WHERE category='ps4controller' OR category='ps4console' OR category='ps4game' ORDER BY pid ASC ";

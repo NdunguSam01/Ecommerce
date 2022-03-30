@@ -19,7 +19,7 @@ $link="http://". $_SERVER['HTTP_HOST']. $_SERVER['REQUEST_URI'];
 <header class="hero-section">
 <div class="content"></div>
 
-<center><div class="card" style="width: 70%">
+<center><div class="card" style="width: 95%">
 <h1>Play Station 3</h1>
 <?php
     $query = "SELECT * FROM products WHERE category='ps3controller' OR category='ps3console' OR category='ps3game' ORDER BY pid ASC ";

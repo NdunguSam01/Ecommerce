@@ -17,7 +17,7 @@ include_once 'dbConfig.php';
     <div class="content">
     </div>
 
-    <center><div class="card" style="width: 70%">
+    <center><div class="card" style="width: 95%">
         <h1>Available Items</h1>
         <?php
             $query = "SELECT * FROM products ORDER BY pid ASC ";

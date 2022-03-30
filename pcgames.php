@@ -18,7 +18,7 @@ include_once 'dbConfig.php';
     <div class="content">
     </div>
 
-    <center><div class="card" style="width: 70%">
+    <center><div class="card" style="width: 95%">
         <h1>PC Games</h1>
         <?php
             $query = "SELECT * FROM products WHERE category='pcg'";

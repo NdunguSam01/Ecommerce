@@ -18,7 +18,7 @@ include_once 'dbConfig.php';
     <div class="content">
     </div>
 
-    <center><div class="card" style="width: 70%">
+    <center><div class="card" style="width: 95%">
         <h1>X Box Series S Bundle</h1>
         <?php
             $query = "SELECT * FROM products WHERE category='seriessbcontroller' OR category='seriessbconsole' OR category='seriessbgame'";
