@@ -1,5 +1,6 @@
 <?php
 include_once '../dbConfig.php';
+include_once 'sessions.php';
 
 if (isset($_GET["action"]))
 {
@@ -8,7 +9,8 @@ if (isset($_GET["action"]))
     	
     	$id=$_GET['pid'];
     	$date=date("d-m-Y");
-        $query=mysqli_query($con,"UPDATE products SET isDeleted=b'1', DeletedDate='$date' WHERE pid='$id' ");
+    	$person=$_SESSION['admin'];
+        $query=mysqli_query($con,"UPDATE products SET deletedBy='$person', isDeleted=b'1', DeletedDate='$date' WHERE pid='$id' ");
         echo '<script>alert("Product has been Removed!")</script>';
         echo '<script>window.location="View"</script>';
 
@@ -36,6 +38,7 @@ if (isset($_GET["action"]))
 		<th>Image</th>
 		<th>Description</th>
 		<th>Price</th>
+		<th>Created By</th>
 		<th>Delete</th>
 	</tr>
 	<tr>
@@ -72,6 +75,8 @@ if (isset($_GET["action"]))
 			echo "<td><img src='../Uploads/".$row['image']."'></td>" ;
 			echo "<td>".$row["description"]."</td>";
 			echo "<td>".$row["price"]."</td>";
+			//echo "<td><a href=View?action=delete$pid=".$row['pid']." onclick='return confirm('Remove item?');''>Delete</a></td>";
+			echo "<td>".$row["createdBy"]."</td>";
 			echo "<td><a href=View?action=delete&pid=".$row['pid'].">Delete</a></td>";
 			echo "</tr>";
 		}

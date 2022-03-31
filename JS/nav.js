@@ -19,7 +19,12 @@ const createNav = () => {
                 <a href="LogOut" onclick="return confirm('Are you sure you want to log out?');">Log out</a>
             </div>
         </div>
-                <a href="Cart"><img src="img/cart.png" alt=""></a>
+                <a href="Cart"><img src="img/cart.png" alt="">
+                <?php 
+                $count = count($_SESSION["cart"]);
+                echo $count;
+                ?>
+                </a>
             </div>
         </div>
 

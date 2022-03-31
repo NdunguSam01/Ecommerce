@@ -33,6 +33,7 @@ if (isset($_GET["action"]))
 		<th>Image</th>
 		<th>Description</th>
 		<th>Price</th>
+		<th>Deleted By</th>
 		<th>Restore</th>
 	</tr>
 	<tr>
@@ -69,6 +70,7 @@ if (isset($_GET["action"]))
 			echo "<td><img src='../Uploads/".$row['image']."'></td>" ;
 			echo "<td>".$row["description"]."</td>";
 			echo "<td>".$row["price"]."</td>";
+			echo "<td>".$row["deletedBy"]."</td>";
 			echo "<td><a href=Delete?action=restore&pid=".$row['pid']." >Restore</a></td>";
 			echo "</tr>";
 		}
