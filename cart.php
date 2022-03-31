@@ -123,7 +123,7 @@ if (isset($_GET["action"]))
                         ?>
                         <tr>
                             <td><?php echo $value["item_name"]; ?></td>
-                            <td><?php echo $value["item_quantity"]; ?></td>
+                            <td><input type="text" class="form-control" name="<?php echo $value["item_quantity"]; ?>"></td>
                             <td>Kshs <?php echo $value["product_price"]; ?></td>
                             <td>
                                 Kshs <?php echo number_format($value["item_quantity"] * $value["product_price"], 2); ?></td>
