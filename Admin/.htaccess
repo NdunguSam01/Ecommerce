@@ -1,6 +1,6 @@
 RewriteEngine On
 
-#Hiding removing .php extensions
+#Hiding .php extensions
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
