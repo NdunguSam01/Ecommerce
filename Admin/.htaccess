@@ -9,7 +9,7 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 AuthType Basic
 AuthName "Admin"
 AuthUserFile "C:/Users/user/Desktop/XAMPP Folder/htdocs/Ecommerce/Admin/.htpasswd"
-Require user samuel
+require user samuel
 
 
 
