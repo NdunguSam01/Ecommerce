@@ -148,7 +148,7 @@ if (isset($_GET["action"]))
             <a href="cart.php?action=deleteAll" onclick="return confirm('Are you sure you want to clear the cart?');" class="button">Empty Cart</a>
             <br>
     <center>
-        <a href="Index" class="button">Continue Shopping</a>
+        <a href="/Ecommerce" class="button">Continue Shopping</a>
         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         <a href="Checkout" class="button">Checkout</a>
     </center>

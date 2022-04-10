@@ -6,7 +6,7 @@ const createFooter = () => {
         <center><img src="img/Logo.jpg" class="logo" alt=""></center>
     </div>
     <p class="footer-title"><u>Company Contacts</u></p>
-    <p class="info">Emails: <a href="mailto: help@kikwetu.com">help@kikwetu.com</a> or <a href="mailto: customersupport@kikwetu.com">customersupport@kikwetu.com</a></p>
+    <p class="info">Email: <a href="mailto: help@kikwetu.com">help@kikwetu.com</a> or <a href="mailto: customersupport@kikwetu.com">customersupport@kikwetu.com</a></p>
     <p class="info">Telephone: <a href="tel:+254 707251073">+254 707251073</a> or <a href="tel:+254 734390240">+254 734390240</a></p>
     <p class="info">
         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
