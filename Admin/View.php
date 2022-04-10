@@ -38,7 +38,6 @@ if (isset($_GET["action"]))
 		<th>Image</th>
 		<th>Description</th>
 		<th>Price</th>
-		<th>Created By</th>
 		<th>Delete</th>
 	</tr>
 	<tr>
@@ -75,9 +74,7 @@ if (isset($_GET["action"]))
 			echo "<td><img src='../Uploads/".$row['image']."'></td>" ;
 			echo "<td>".$row["description"]."</td>";
 			echo "<td>".$row["price"]."</td>";
-			//echo "<td><a href=View?action=delete$pid=".$row['pid']." onclick='return confirm('Remove item?');''>Delete</a></td>";
-			echo "<td>".$row["createdBy"]."</td>";
-			echo "<td><a href=View?action=delete&pid=".$row['pid'].">Delete</a></td>";
+			echo "<td><a href=View?action=delete&pid=".$row['pid']." onclick='return confirm('Remove item?');'>Delete</a></td>";
 			echo "</tr>";
 		}
 		echo "</table>";
@@ -91,7 +88,7 @@ if (isset($_GET["action"]))
 	for ($page=1;$page<=$no_of_pages;$page++) 
 	{
 
-  	echo '<a href="View?page=' . $page . '">' . $page . '</a> ';
+  	echo '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="View?page=' . $page . '">' . $page . '</a> ';
 	}
 	?>
 
