@@ -17,7 +17,7 @@ include_once 'dbConfig.php';
     <div class="content">
     </div>
 
-    <center><div class="card" style="width: 95%">
+    <div class="card" style="width: 95%">
         <h1>Available Items</h1>
         <?php
             $query = "SELECT * FROM products ORDER BY pid ASC ";
@@ -31,7 +31,7 @@ include_once 'dbConfig.php';
                     ?>
                     <div class="product">
                         <form method="post" action="Cart.php?action=add&pid=<?php echo $row["pid"]; ?>">
-                            <center><img src="Uploads/<?php echo $row["image"]; ?>" class="img-responsive"></center>
+                            <img src="Uploads/<?php echo $row["image"]; ?>" class="img-responsive">
                             <br><h5 class="text-info"><?php echo $row["description"]; ?></h5>
                             <br><h5 class="text-danger">Kshs <?php echo $row["price"]; ?></h5>    
                         </form>
@@ -41,7 +41,6 @@ include_once 'dbConfig.php';
             }
         ?>
  </div>
-</center>
 </header>
 
 <footer></footer>
